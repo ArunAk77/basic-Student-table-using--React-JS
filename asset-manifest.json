@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/basic-Student-table-using--React-JS/static/css/main.60a9ff07.css",
+    "main.js": "/basic-Student-table-using--React-JS/static/js/main.d66c656f.js",
+    "index.html": "/basic-Student-table-using--React-JS/index.html",
+    "main.60a9ff07.css.map": "/basic-Student-table-using--React-JS/static/css/main.60a9ff07.css.map",
+    "main.d66c656f.js.map": "/basic-Student-table-using--React-JS/static/js/main.d66c656f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60a9ff07.css",
+    "static/js/main.d66c656f.js"
+  ]
+}

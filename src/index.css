@@ -1,0 +1,135 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 5px;
+  background: linear-gradient(160deg, blue, white,skyblue,yellow );
+  /* background: linear-gradient(130deg, violet,indigo,Blue,green,yellow,orange,red ); */
+  margin: 0px;
+  padding: 10px;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+#edit{
+  /* background-color: chartreuse; */
+  background-color:black ;
+  transition: 0.5s;
+  box-shadow: -10px 10px 12px;
+}
+#edit:hover{
+  background-color: aliceblue;
+  transition: 0.5s;
+}
+a{
+  color:rgb(255, 255, 255);
+  background-color: black;
+  transition: 0.4s;
+}
+a:hover{
+  color: red;
+  transition: 0.4s;
+  scale: 1;
+}
+#foott{
+  background-color: rgb(0, 136, 255);
+  text-align: center;
+  position:relative;
+  margin-top: 10px;
+  font-size: 20px;
+  height: 120px;
+  width: 100%;
+  border-radius: 10px;
+  font-style: oblique;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+  display: flex;
+  text-align: center;
+  margin-top: 50px ;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  width: fit-content;
+  height: fit-content;
+  margin-left: 425px;
+  border-radius: 15px;
+  transition: 0.4s;
+  box-shadow: -10px 12px 12px  black;
+}
+.container:hover{
+  background-color: rgb(0, 0, 0);
+  color: white;
+  transition: 0.4s;
+}
+tr,td,th{
+  border-style: groove;
+  padding: 10px;
+  font-size: larger;
+  border-radius: 15px;
+  transform: scale(0.9);
+  transition: 0.5s;
+  width: fit-content;
+}
+tr:hover,td:hover,th:hover{
+  transform: scale(1);
+  background-color: aqua;
+  color: black;
+  transition: 0.5s;
+  width: fit-content;
+}
+#sin{
+  text-align: center;
+ margin-left: 455px;
+  background-color: rgba(255, 255, 255, 0.226);
+  padding: 10px;
+  width: 400px;
+  height: 200px;
+  justify-content: center;
+  border-radius: 10px;
+  scale: 0.9;
+  box-shadow: -10px 10px 12px black;
+  transition: all 0.8s;
+}
+#sin:hover{
+  rotate: 360deg;
+scale: 1;
+transition: all 0.8s;
+
+}
+#btnn{
+text-align: center;
+}
+label,#inpp{
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+}
+button{
+  padding: 8px;
+  margin: 4px;
+  border-radius: 5px;
+  background-color: black;
+  color:white;
+  box-shadow: -5px 5px 10px black;
+  scale: 0.9;
+  transition: 0.1s;
+}
+button:hover{
+  box-shadow: -5px 5px 10px;
+  scale: 1;
+  transition: 0.5s;
+}
+#inp{
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  margin-right: 25px;
+}
